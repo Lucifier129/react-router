@@ -30,7 +30,9 @@ module.exports = {
 
   resolve: {
     alias: {
-      'react-router': path.join(__dirname, '..', 'modules')
+      'react-router': path.join(__dirname, '..', 'modules'),
+      'react': path.join(__dirname, '..', '..', 'react-lite'),
+      'react-dom': path.join(__dirname, '..', '..', 'react-lite')
     }
   },
 
