@@ -29,7 +29,7 @@
     "test": "npm run lint && npm run test-node && npm run test-browser",
     "test-browser": "karma start",
     "test-node": "mocha --compilers js:babel-core/register tests.node.js",
-    "postinstall": "node ./npm-scripts/postinstall.js"
+    "postinstall-do-not-run": "node ./npm-scripts/postinstall.js"
   },
   "authors": [
     "Ryan Florence",
