@@ -19,7 +19,7 @@
   "homepage": "https://rackt.github.io/react-router/",
   "bugs": "https://github.com/rackt/react-router/issues",
   "scripts": {
-    "build": "npm run build-cjs && npm run build-es6",
+    "build-all": "npm run build-cjs && npm run build-es6",
     "build-cjs": "rimraf lib && babel ./modules -d lib --ignore '__tests__'",
     "build-es6": "rimraf es6 && babel ./modules -d es6 --blacklist=es6.modules --ignore '__tests__'",
     "build-umd": "NODE_ENV=production webpack modules/index.js umd/ReactRouter.js",
