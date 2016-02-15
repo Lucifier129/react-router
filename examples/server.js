@@ -1,9 +1,9 @@
 /*eslint-disable no-console, no-var */
 var express = require('express')
 var rewrite = require('express-urlrewrite')
-var webpack = require('webpack')
-var webpackDevMiddleware = require('webpack-dev-middleware')
-var WebpackConfig = require('./webpack.config')
+// var webpack = require('webpack')
+// var webpackDevMiddleware = require('webpack-dev-middleware')
+// var WebpackConfig = require('./webpack.config')
 
 var app = express()
 
