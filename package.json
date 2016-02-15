@@ -39,9 +39,7 @@
   "dependencies": {
     "history": "^2.0.0-rc1",
     "invariant": "^2.0.0",
-    "warning": "^2.0.0"
-  },
-  "devDependencies": {
+    "warning": "^2.0.0",
     "babel": "^5.4.7",
     "babel-core": "^5.4.7",
     "babel-eslint": "^4.1.6",
